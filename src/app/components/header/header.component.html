@@ -1,0 +1,15 @@
+
+<div class="alert alert-info">
+    <div class="contaier">
+        <div class="row aling-ite"></div>
+        <div class="col-md-4">
+            <h3 routerlink="/home"  class="cursor-pointer">
+                <img src="/assets/images/images/1.jpg" alt="logo" height="70">
+            </h3>
+        </div>
+        <div class="col-md8"></div>
+            <form (submit)="search($event)">
+                <input type="text" name="movieTitle" class="form-control" autofocus placeholder="Movie Search" [(ngModel)]="movieTitle">
+            </form>          
+    </div>
+</div>
